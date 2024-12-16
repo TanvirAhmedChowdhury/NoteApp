@@ -18,20 +18,26 @@
 ## **Screenshots**
 
 
-![photo_2024-12-16_21-58-20](https://github.com/user-attachments/assets/3bd58fc6-035e-483b-82c4-90478f5a0451)
-**###########################################################################################################**
-![photo_2024-12-16_21-58-22](https://github.com/user-attachments/assets/a31efbc4-6100-4b41-89b9-61b4dbee8d83)
-**###########################################################################################################**
-![photo_2024-12-16_21-58-23](https://github.com/user-attachments/assets/e09efb6e-48ba-43d4-a661-c6e02e31c15f)
-**###########################################################################################################**
-![photo_2024-12-16_21-58-24](https://github.com/user-attachments/assets/49b6928d-748c-4ad5-99a4-ebfd32440935)
-**###########################################################################################################**
-![photo_2024-12-16_21-58-25](https://github.com/user-attachments/assets/671995ac-f7ca-4f50-8ee1-ef1155a796f0)
-**###########################################################################################################**
-![photo_2024-12-16_21-58-26](https://github.com/user-attachments/assets/13f9f5bb-f080-49f8-9be0-6a6a6e11f6c1)
-**###########################################################################################################**
-![photo_2024-12-16_22-05-14](https://github.com/user-attachments/assets/1a539f2c-7df9-4213-8275-eb66ed51df8f)
+### 1. Interface  
+ <img width="960" alt="Capture" src="https://github.com/user-attachments/assets/3bd58fc6-035e-483b-82c4-90478f5a0451">
 
+### 2. 
+<img width="960" alt="Capture2" src="https://github.com/user-attachments/assets/a31efbc4-6100-4b41-89b9-61b4dbee8d83">
+
+### 3. 
+<img width="960" alt="Capture3" src="https://github.com/user-attachments/assets/e09efb6e-48ba-43d4-a661-c6e02e31c15f">
+
+### 4. 
+<img width="960" alt="Capture3" src="https://github.com/user-attachments/assets/49b6928d-748c-4ad5-99a4-ebfd32440935">
+ 
+### 5. 
+<img width="960" alt="Capture3" src="https://github.com/user-attachments/assets/671995ac-f7ca-4f50-8ee1-ef1155a796f0">
+ 
+### 6. 
+<img width="960" alt="Capture3" src="https://github.com/user-attachments/assets/13f9f5bb-f080-49f8-9be0-6a6a6e11f6c1">
+ 
+### 7. 
+<img width="960" alt="Capture3" src="https://github.com/user-attachments/assets/1a539f2c-7df9-4213-8275-eb66ed51df8f">
 
 
 ---
