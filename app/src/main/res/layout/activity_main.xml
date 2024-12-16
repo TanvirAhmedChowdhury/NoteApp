@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".activities.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textMyNotes"
+        android:layout_width="413dp"
+        android:layout_height="68dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:includeFontPadding="false"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingTop="@dimen/_18sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:text="@string/my_notes"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_20ssp"
+        app:layout_constraintTop_toBottomOf="@id/textMyNotes"
+
+
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="@string/tanvir_ahmed_chy"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/textMyNotes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="@+id/textMyNotes"
+        app:layout_constraintTop_toTopOf="@+id/textMyNotes"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorTextHint"
+        android:textSize="@dimen/_13sdp"
+        tools:ignore="MissingConstraints,UselessLeaf" />
+
+        <LinearLayout
+            android:id="@+id/layoutsearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:background="@drawable/background_search"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/inputsearch"
+        android:layout_width="325dp"
+        android:layout_height="45dp"
+        android:background="@color/colorSearchBackround"
+        android:contentDescription="@string/app_name"
+        android:fontFamily="@font/agbalumo"
+        android:hint="@string/search_notes"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:includeFontPadding="false"
+        android:inputType="text"
+        android:paddingStart="50dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorTextHint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="0.123"
+        tools:ignore="ContentDescription,MissingConstraints,RtlSymmetry" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="start|center_vertical"
+        android:src="@drawable/ic_search"
+        android:tint="@color/colorSearchIcon"
+        app:layout_constraintBottom_toBottomOf="@+id/inputsearch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="@+id/inputsearch"
+        app:layout_constraintTop_toTopOf="@+id/inputsearch"
+        app:layout_constraintVertical_bias="0.583"
+        tools:ignore="ContentDescription,MissingConstraints,UseAppTint" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutQuickActions"
+        android:background="@color/colorQuickActionBackround"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="@dimen/_15sdp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/ImageAddNote"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:contentDescription="@string/app_name"
+            android:tint="@color/colorIcons"
+            android:src="@drawable/ic_add_outline"
+            tools:ignore="UseAppTint" />
+
+        <ImageView
+            android:id="@+id/ImageAddImage"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_width="@dimen/_23sdp"
+            android:layout_height="@dimen/_23sdp"
+            android:contentDescription="@string/app_name"
+            android:tint="@color/colorIcons"
+            android:src="@drawable/ic_images"
+            tools:ignore="UseAppTint" />
+
+        <ImageView
+            android:id="@+id/ImageAddWebLink"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_width="@dimen/_23sdp"
+            android:layout_height="@dimen/_23sdp"
+            android:contentDescription="@string/app_name"
+            android:tint="@color/colorIcons"
+            android:src="@drawable/ic_web_link"
+            tools:ignore="UseAppTint" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:paddingStart="0dp"
+        android:paddingEnd="@dimen/_12sdp"
+        android:paddingBottom="@dimen/_12sdp"
+        app:layout_constraintBottom_toTopOf="@+id/layoutQuickActions"
+        app:layout_constraintTop_toBottomOf="@+id/inputsearch"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="-2dp" />
+
+    <ImageView
+            android:id="@+id/imageAddNoteMain"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/backround_add_button"
+            android:contentDescription="@string/app_name"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/ic_add_2"
+            android:tint="@color/colorPrimary"
+            app:layout_constraintBottom_toTopOf="@+id/layoutQuickActions"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/layoutQuickActions"
+
+            tools:ignore="UseAppTint" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
