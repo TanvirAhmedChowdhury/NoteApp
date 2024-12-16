@@ -47,3 +47,18 @@
 1. Copy this Link and Paste any Browser:
    ```bash
    https://github.com/TanvirAhmedChowdhury/NoteApp/raw/refs/heads/master/app/release/NotePad.apk
+
+
+
+ ## Support Me
+  If you like my work you can support me via :
+  
+  <a href="https://google.com" target="_blank"> <kbd> 
+         ![binance](https://github.com/user-attachments/assets/0f24fc0e-0d52-43e6-a956-e80c62e972c5)
+          </a> <a href="https://google.com" target="_blank"> <kbd> <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*EPdXV6DAFtthI3w-d0XUcg.jpeg" alt="Buy Me A Coffee" width="300"></a>
+  
+  
+  <hr>
+  
+  **Copyright © 2024 Tanvir Ahmed (chy)**
+
