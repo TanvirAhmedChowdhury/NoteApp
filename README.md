@@ -19,7 +19,7 @@
 
 
 ### 1. Interface  
-<img width="400" height="700" alt="Capture" src="https://github.com/user-attachments/assets/3bd58fc6-035e-483b-82c4-90478f5a0451">
+<img width="400" height="600" alt="Capture" src="https://github.com/user-attachments/assets/3bd58fc6-035e-483b-82c4-90478f5a0451">
 
 ### 2. 
 <img width="960" alt="Capture2" src="https://github.com/user-attachments/assets/a31efbc4-6100-4b41-89b9-61b4dbee8d83">
